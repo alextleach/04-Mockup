@@ -166,6 +166,7 @@ box-shadow: 0px 6px 27px -3px rgba(196,196,196,1);
   width: 100%;
   text-align: center;
   overflow: hidden;
+  border-bottom: 0.03rem solid #ccc;
 
 }
 
@@ -179,6 +180,7 @@ box-shadow: 0px 6px 27px -3px rgba(196,196,196,1);
 .tiebar-tieblock {
   /*background: #15a6cc;*/
   flex-basis: calc(100% / 9);
+  flex-grow: 1;
   flex-wrap: nowrap;
   align-content: space-around;
   display: inline-block;
@@ -201,15 +203,41 @@ box-shadow: 0px 6px 27px -3px rgba(196,196,196,1);
 
 }
 
-.tierbar__dressbetter {
+.tiebar__dressbetter {
   margin: 0 auto;
   display: block;
-  position: absolute;
-  padding: 4rem;
+  position: relative;
+  padding: 2rem;
 }
 
 .tiebar__dressbetter h1 {
   font-size: 32pt;
   line-height: 50pt;
+}
 
+.threecolumnboxes-container {
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*background: #d5693f;*/
+}
+
+.threecolumnboxes__item {
+  width: calc(100% / 3.2);
+  background: #f4f4f4;
+  border: 0.03rem solid #ccc;
+  border-radius: 1%;
+  position: relative;
+  overflow: hidden;
+}
+.threecolumnboxes__item img {
+width: 100%;
+margin: 0 auto;
+
+}
+.threecolumnboxes__item h4 {
+  position: absolute;
+  top: 0;
+  right: 1rem;
 }
