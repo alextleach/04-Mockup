@@ -281,12 +281,13 @@ margin: 0 auto;
 
 .fourcolumnbottom--item {
   /*background: #b5fbaa;*/
-  width: calc(100% / 4 - 0.7rem)
+  width: calc(100% / 4 - 1.3rem)
 }
 .fourcolumnbottom--item img {
   width: 100%;
   border: 0.03rem solid #ccc;
   border-radius: 1%;
+  margin-top: 0.5rem;
 }
 .fourcolumnbottom--item input {
   width: 90%;
@@ -355,7 +356,7 @@ margin: 0 auto;
 .footerhalf-one ul strong{
 color: #252525;
 font-size: 11pt;
-line-height: 19pt;
+line-height: 15pt;
 font-style: normal;
 font-weight: 100;
 }
